@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="dom.js" defer></script>
+</head>
+<body>
+    <header style="display: flex; align-items: center; justify-content: space-around;">
+        <h1 id="header">
+            Item lister
+        </h1>
+        <input style="; padding: 0px 4px; border-radius: 3px; border: 1px solid #f4f4f4; width: 7rem; outline: none;" type="text" class="form-control" id="filter" placeholder="Search Items...">
+    </header>
+    <main>
+        <section>
+            <h2>
+                Add items
+            </h2>
+            <form action="#" id="addForm">
+                <input type="text" id="item">
+                <!-- <select name="" id="">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option> -->
+                </select>
+                <input type="submit">
+            </form>
+            <h2>Items</h2>
+            <ul id="items">
+                <li class="list-group-item">Item 1 <button class="buttons delete">X</button></li>
+                <li class="list-group-item">Item 2 <button class="buttons delete">X</button></li>
+                <li class="list-group-item">Item 3 <button class="buttons delete">X</button></li>
+                <li class="list-group-item">Item 4 <button class="buttons delete">X</button></li>
+            </ul>
+            <!-- <div id="output"></div>
+            <br>
+            <button class='btn' id="button">Click here</button>
+            <br><br>
+            <div id='box' style="display: inline-block; width: 400px; height: 200px; background-color: #f4f4f4;"></div> -->
+        </section>
+    </main>
+</body>
+</html>
